@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px
+}
+
+.board-container {
+  border: 24px solid sandybrown;
+}
+
+.board-row {
+  width: auto;
+  display: flex;
+}
+
+.board-cell {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey
+}
+
+.board-piece {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
